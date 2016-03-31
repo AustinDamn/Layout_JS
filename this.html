@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <html>
     <head>
         <meta content="text/html; charset=Big5" http-equiv="content-type">
@@ -22,4 +23,30 @@
         </div>
         <span id="console"></span>
     </body>
+=======
+<html>
+    <head>
+        <meta content="text/html; charset=Big5" http-equiv="content-type">
+        <script type="text/javascript">
+            window.onload = function() {
+                function handler(event) {
+                    event = event || window.event;
+                    var target = event.target || event.srcElement;
+                    document.getElementById('console').innerHTML += 
+                        '<br><b>this.id:</b> ' + this.id + 
+                        ', <b>target.id:</b> ' + target.id;
+                }
+                document.onclick = handler;
+            };
+        </script>
+    </head>
+    <body id="bodyId">
+        <div id="divId">
+            <button id="btnId">按我</button> 
+            <td rowspan=4 class=xl25026644 width=89 style='border-bottom:1.0pt solid black;
+            width:67pt'>TLCD0100</td>           
+        </div>
+        <span id="console"></span>
+    </body>
+>>>>>>> 198be98952d9e8593099abc162b419382904ce43
 </html>

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <html>   
   <head>   
   <meta   http-equiv="Content-Type"   content="text/html;   charset=big5">   
@@ -37,4 +38,45 @@
   </html>     
   <div   style="position:   absolute;   bottom:   10;   right:   0;   width:   150;   height:   18;cursor:hand;z-index:100000;font:menu;background:infobackground;border:1   solid   #999999;padding:4px;">   
     <A   href="/data/"   target=_blank><FONT   color=red>   DataCenter</FONT></A>     <A   href="/game/"   target=_blank><FONT   color=green>   線上小遊戲</FONT></A>   
+=======
+<html>   
+  <head>   
+  <meta   http-equiv="Content-Type"   content="text/html;   charset=big5">   
+  <meta   name="GENERATOR"   content="Microsoft   FrontPage   4.0">   
+  <meta   name="ProgId"   content="FrontPage.Editor.Document">   
+  
+  <title>工具欄－www.51windows.Net</title>   
+  <style>   
+  <!--   
+  body,   table,   p,   td,   div,select   {   font:menu}   
+  .button   {boder:0;   HEIGHT:   20px;width:60px;cursor:hand;font:menu}   
+  -->   
+  </style>   
+  </head>   
+  <body>   
+  <SCRIPT   language=JavaScript>   
+  function   Run(strPath)   {   
+  exe.value=strPath;   
+  try   {   
+  var   objShell   =   new   ActiveXObject("wscript.shell");   
+  objShell.Run(strPath);   
+  objShell   =   null;   
+  }   
+  catch   (e){alert('找不到檔"'+strPath+'"(或它的組件之一)。請確定路徑和檔案名是否正確，而且所需的庫檔均可用。')   
+  }   
+  }   
+  </SCRIPT>   
+  <p>For Test<br/>   
+  請輸入要運行的程式：<br/>
+  <input   name=exe   type=text   size=20   value="">
+  <BUTTON   class=button   onclick="Run(exe.value)">確定</BUTTON><BUTTON   class=button   onclick=exe.value="";>重新輸入</BUTTON><br/>   
+  <br/>
+  <BUTTON   class=button   onclick="Run('C:/Users/user/Desktop/example/example/bat/hello')">Hello</BUTTON><br/>   
+  <BUTTON   class=button   onclick="Run('bat/hello')">Hello</BUTTON><br/>
+  </p>   
+  </body>   
+  </html>     
+  <div   style="position:   absolute;   bottom:   10;   right:   0;   width:   150;   height:   18;cursor:hand;z-index:100000;font:menu;background:infobackground;border:1   solid   #999999;padding:4px;">   
+    <A   href="/data/"   target=_blank><FONT   color=red>   DataCenter</FONT></A>     <A   href="/game/"   target=_blank><FONT   color=green>   線上小遊戲</FONT></A>   
+>>>>>>> 198be98952d9e8593099abc162b419382904ce43
     <input   type="button"   name="Button"   value="源代碼"   onClick=   'window.location   =   "view-source:"   +   window.location.href'></div>  
